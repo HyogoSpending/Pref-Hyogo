@@ -5,7 +5,6 @@ title: The Daily Bread
 
 <script>
 
-
 yepnope({
   load: [
     // 'http://wheredoesmymoneygo.org/wp-content/themes/wdmmg/wdmmg.css',
@@ -32,18 +31,19 @@ yepnope({
            apiUrl: 'http://openspending.org/api',
            //localApiCache: 'aggregate.json',
            dataset: OpenSpending.identifier,
-          drilldowns: ['category', 'subcategory', 'subcategory02'], //-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-→変更有
-           
+           drilldowns: ['category', 'subcategory', 'subcategory02'], //-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-→変更有
            cuts: ['year:' + OpenSpending.year],
            rootNodeLabel: 'Total',
-	   breakdown:'subcategory02', //-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-→変更有
+	   	 breakdown:'subcategory02', //-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-→変更有
            callback: function(data) {
 
             $('#content-wrap').show();
             $('#preloader').remove();
+// 神戸市版追加分 ここから
+/*
             var work = {};
             var i;
-            var n = 9;
+            var n = 13;
             var j;
             console.log(data.children[0]["amount"]);
             for(i=0;i< n-1;i++){
@@ -63,6 +63,8 @@ yepnope({
             console.log(data.children[1]);
             //if(data.children[])
             console.log(data.children[1]);
+*/
+// 神戸市版追加分 ここまで
             db.setDataFromAggregator(data, ['unknown']);
             db.setIconLookup(function(name) {
               var style = OpenSpending.Styles.Cofog[name];
