@@ -354,3 +354,4 @@ OpenSpending.Styles.Cofog = {
   '2013130100': { icon: 'icons/money.svg', color: '#C75746', bcolor: '#D33673' },		//2階層	予備費
   '2013130101': { icon: 'icons/money.svg', color: '#C75746', bcolor: '#D33673' }		//予備費
 };
+
