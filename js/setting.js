@@ -16,7 +16,7 @@ OpenSpending.year = '2013';
 OpenSpending.Styles = OpenSpending.Styles || {};
 
 OpenSpending.Styles.Cofog = {
-
+/*  建物、山、魚、講義の4つのアイコンをオリジナルで作成  */
   /* hyogopref cofog */
   '2013010000': { icon: 'icons/legislative.svg', color: '#C75746', bcolor: '#D33673' }, 	// 1階層 議会費-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
   	  
@@ -38,7 +38,7 @@ OpenSpending.Styles.Cofog = {
   '2013020108': { icon: 'icons/publicaffairs.svg', color: '#C75746', bcolor: '#935B3B' },			//会計管理費
   '2013020109': { icon: 'icons/publicaffairs.svg', color: '#C75746', bcolor: '#935B3B' },			//財産管理費
   '2013020110': { icon: 'icons/military.svg', color: '#C75746', bcolor: '#935B3B' },				//渉外費				ワナ
-  '2013020111': { icon: 'icons/port-tower2.svg', color: '#C75746', bcolor: '#935B3B' },		//東京事務所費
+  '2013020111': { icon: 'icons/hyogo_building.svg', color: '#C75746', bcolor: '#935B3B' },		//東京事務所費	⇒オリジナルアイコン（建物：hyogo_building.svg）
   '2013020112': { icon: 'icons/japanese-money.svg', color: '#C75746', bcolor: '#935B3B' },	//恩給及び退職年金費
   '2013020113': { icon: 'icons/unknown.svg', color: '#C75746', bcolor: '#935B3B' },			//諸費
   '2013020114': { icon: 'icons/japanese-money.svg', color: '#C75746', bcolor: '#935B3B' },	//県税市町交付金
@@ -88,8 +88,8 @@ OpenSpending.Styles.Cofog = {
   '2013021000': { icon: 'icons/payroll.svg', color: '#C75746', bcolor: '#FA8072' }, 		//2階層 	監査委員費
   '2013021001': { icon: 'icons/payroll.svg', color: '#C75746', bcolor: '#FA8072' },			//監査委員費
   	  
-  '2013021100': { icon: 'icons/manufactoring-construction.svg', color: '#C75746', bcolor: '#FA8072' }, 	//2階層	庁舎整備費
-  '2013021101': { icon: 'icons/manufactoring-construction.svg', color: '#C75746', bcolor: '#FA8072' },				//庁舎整備費
+  '2013021100': { icon: 'icons/hyogo_building.svg', color: '#C75746', bcolor: '#FA8072' }, 	//2階層	庁舎整備費	⇒オリジナルアイコン（建物：hyogo_building.svg）
+  '2013021101': { icon: 'icons/manufactoring-construction.svg', color: '#C75746', bcolor: '#FA8072' },				//庁舎整備費	⇒オリジナルアイコン（建物：hyogo_building.svg）
 
 
    '2013030000': { icon: 'icons/helping-others.svg', color: '#C75746', bcolor: '#4E6D00' }, 	//1階層	民生費-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
@@ -173,8 +173,8 @@ OpenSpending.Styles.Cofog = {
   '2013060103': { icon: 'icons/c_nougyou.svg', color: '#C75746', bcolor: '#935B3B' },			//農業振興費
   '2013060104': { icon: 'icons/c_nougyou.svg', color: '#C75746', bcolor: '#935B3B' },			//農作物対策費
   '2013060105': { icon: 'icons/microscope.svg', color: '#C75746', bcolor: '#935B3B' },			//植物防疫費
-  '2013060106': { icon: 'icons/primary.svg', color: '#C75746', bcolor: '#935B3B' },				//農業協同組合等指導費
-  '2013060107': { icon: 'icons/primary.svg', color: '#C75746', bcolor: '#935B3B' },				//農業共済団体指導費
+  '2013060106': { icon: 'icons/hyogo_lecture.svg', color: '#C75746', bcolor: '#935B3B' },		//農業協同組合等指導費	⇒オリジナルアイコン（指導：hyogo_lecture）
+  '2013060107': { icon: 'icons/hyogo_lecture.svg', color: '#C75746', bcolor: '#935B3B' },		//農業共済団体指導費	⇒オリジナルアイコン（指導：hyogo_lecture）
   '2013060108': { icon: 'icons/microscope.svg', color: '#C75746', bcolor: '#935B3B' },			//農林水産技術総合センター費
   	  
   '2013060200': { icon: 'icons/pig.svg', color: '#C75746', bcolor: '#935B3B' }, 			//2階層 畜産業費
@@ -194,12 +194,12 @@ OpenSpending.Styles.Cofog = {
   '2013060403': { icon: 'icons/defence.svg', color: '#C75746', bcolor: '#935B3B' },				//森林害虫防除費
   '2013060404': { icon: 'icons/forest.svg', color: '#C75746', bcolor: '#935B3B' },				//造林費
   '2013060405': { icon: 'icons/farms.svg', color: '#C75746', bcolor: '#935B3B' },				//林道費
-  '2013060406': { icon: 'icons/tree.svg', color: '#C75746', bcolor: '#935B3B' },					//治山費
+  '2013060406': { icon: 'icons/hyogo_mountain.svg', color: '#C75746', bcolor: '#935B3B' },	//治山費	⇒オリジナルアイコン（山：hyogo_mountain）
   '2013060407': { icon: 'icons/microscope.svg', color: '#C75746', bcolor: '#935B3B' },			//農林水産技術総合センター費
   	  
-  '2013060500': { icon: 'icons/fishing.svg', color: '#C75746', bcolor: '#935B3B' }, 		//2階層	水産業費
+  '2013060500': { icon: 'icons/hyogo_fish.svg', color: '#C75746', bcolor: '#935B3B' }, 		//2階層	水産業費	⇒オリジナルアイコン（魚：hyogo_fish）
   '2013060501': { icon: 'icons/publicaffairs.svg', color: '#C75746', bcolor: '#935B3B' },			//水産業総務費
-  '2013060502': { icon: 'icons/fishing.svg', color: '#C75746', bcolor: '#935B3B' },				//水産業振興費
+  '2013060502': { icon: 'icons/hyogo_fish.svg', color: '#C75746', bcolor: '#935B3B' },				//水産業振興費	⇒オリジナルアイコン（魚：hyogo_fish）
   '2013060503': { icon: 'icons/primary.svg', color: '#C75746', bcolor: '#935B3B' },				//水産業協同組合指導費
   '2013060504': { icon: 'icons/courts.svg', color: '#C75746', bcolor: '#935B3B' },				//漁業調整費
   '2013060505': { icon: 'icons/police2.svg', color: '#C75746', bcolor: '#935B3B' },				//漁業取締費
@@ -231,21 +231,21 @@ OpenSpending.Styles.Cofog = {
   	  
   '2013080100': { icon: 'icons/admin-housing.svg', color: '#C75746', bcolor: '#D33673' }, 	//2階層 土木管理費
   '2013080101': { icon: 'icons/publicaffairs.svg', color: '#C75746', bcolor: '#D33673' }, 	//土木総務費
-  '2013080102': { icon: 'icons/admin-housing.svg', color: '#C75746', bcolor: '#D33673' },	//土木事務所費
+  '2013080102': { icon: 'icons/hyogo_building.svg', color: '#C75746', bcolor: '#D33673' },	//土木事務所費	⇒オリジナルアイコン（建物：hyogo_building.svg）
   	  
   '2013080200': { icon: 'icons/bridge.svg', color: '#C75746', bcolor: '#D33673' }, 		//2階層 道路橋りょう費
   '2013080201': { icon: 'icons/publicaffairs.svg', color: '#C75746', bcolor: '#D33673' }, 	//道路橋りょう管理費
   '2013080202': { icon: 'icons/bridge.svg', color: '#C75746', bcolor: '#D33673' }, 			//道路橋りょう新設改良費
   			
-  '2013080300': { icon: 'icons/river2.svg', color: '#C75746', bcolor: '#D33673' },		//2階層 河川海岸費
+  '2013080300': { icon: 'icons/river.svg', color: '#C75746', bcolor: '#D33673' },		//2階層 河川海岸費
   '2013080301': { icon: 'icons/publicaffairs.svg', color: '#C75746', bcolor: '#D33673' },		//河川管理費
-  '2013080302': { icon: 'icons/river2.svg', color: '#C75746', bcolor: '#D33673' },			//河川改良費
+  '2013080302': { icon: 'icons/river.svg', color: '#C75746', bcolor: '#D33673' },			//河川改良費
   '2013080303': { icon: 'icons/harbor.svg', color: '#C75746', bcolor: '#D33673' },			//海岸保全費
   '2013080304': { icon: 'icons/river.svg', color: '#C75746', bcolor: '#D33673' },				//水防費
   	  
-  '2013080400': { icon: 'icons/tree.svg', color: '#C75746', bcolor: '#D33673' }, 		//2階層 砂防費
+  '2013080400': { icon: 'icons/hyogo_mountain.svg', color: '#C75746', bcolor: '#D33673' }, 		//2階層 砂防費	⇒オリジナルアイコン（山：hyogo_mountain）
   '2013080401': { icon: 'icons/publicaffairs.svg', color: '#C75746', bcolor: '#D33673' },		//砂防管理費
-  '2013080402': { icon: 'icons/tree.svg', color: '#C75746', bcolor: '#D33673' },				//砂防費
+  '2013080402': { icon: 'icons/hyogo_mountain.svg', color: '#C75746', bcolor: '#D33673' },				//砂防費	⇒オリジナルアイコン（山：hyogo_mountain）
   	    	  
   '2013080500': { icon: 'icons/airplane.svg', color: '#C75746', bcolor: '#D33673' }, 		//2階層 港湾空港費
   '2013080501': { icon: 'icons/publicaffairs.svg', color: '#C75746', bcolor: '#D33673' }, 	//港湾管理費
@@ -257,11 +257,11 @@ OpenSpending.Styles.Cofog = {
   '2013080602': { icon: 'icons/rezoning.svg', color: '#C75746', bcolor: '#D33673' },	//都市整備費
   '2013080603': { icon: 'icons/community.svg', color: '#C75746', bcolor: '#D33673' },		//公園費
   '2013080604': { icon: 'icons/planning.svg', color: '#C75746', bcolor: '#D33673' },			//都市計画費
-  '2013080605': { icon: 'icons/defence.svg', color: '#C75746', bcolor: '#D33673' },			//土地対策費
+  '2013080605': { icon: 'icons/government_office.svg', color: '#C75746', bcolor: '#D33673' },			//土地対策費	⇒オリジナルアイコン（建物：hyogo_building.svg）
   	  
   '2013080700': { icon: 'icons/manufactoring-construction.svg', color: '#C75746', bcolor: '#D33673' }, 		//2階層 建築管理費
   '2013080701': { icon: 'icons/publicaffairs.svg', color: '#C75746', bcolor: '#D33673' }, 	//建築総務費
-  '2013080702': { icon: 'icons/publicaffairs.svg', color: '#C75746', bcolor: '#D33673' }, 	//建築指導監督費
+  '2013080702': { icon: 'icons/hyogo_lecture.svg', color: '#C75746', bcolor: '#D33673' }, 	//建築指導監督費	⇒オリジナルアイコン（指導：hyogo_lecture）
   '2013080703': { icon: 'icons/publicaffairs.svg', color: '#C75746', bcolor: '#D33673' }, 	//建築設計監理費
   	  
   '2013080800': { icon: 'icons/housing.svg', color: '#C75746', bcolor: '#D33673' }, 		//2階層 住宅費
@@ -273,7 +273,7 @@ OpenSpending.Styles.Cofog = {
   	  
   '2013090100': { icon: 'icons/policija.svg', color: '#C75746', bcolor: '#D33673' }, 			//2階層 警察管理費
   '2013090101': { icon: 'icons/policija.svg', color: '#C75746', bcolor: '#D33673' },				//公安委員会費
-  '2013090102': { icon: 'icons/bankbook.svg', color: '#C75746', bcolor: '#D33673' },			//警察本部費
+  '2013090102': { icon: 'icons/bankbook.svg', color: '#C75746', bcolor: '#D33673' },			//警察本部費	⇒オリジナルアイコン（建物：hyogo_building.svg）
   '2013090103': { icon: 'icons/foreign-military-aid.svg', color: '#C75746', bcolor: '#D33673' },//装備費
   '2013090104': { icon: 'icons/redevelop.svg', color: '#C75746', bcolor: '#D33673' },				//警察施設費
   '2013090105': { icon: 'icons/car.svg', color: '#C75746', bcolor: '#D33673' },					//運転免許費
@@ -324,7 +324,7 @@ OpenSpending.Styles.Cofog = {
   '2013100800': { icon: 'icons/c_bunnka.svg', color: '#C75746', bcolor: '#FA8072' }, 			//2階層 社会教育費
   '2013100801': { icon: 'icons/publicaffairs.svg', color: '#C75746', bcolor: '#935B3B' },				//社会教育総務費
   '2013100802': { icon: 'icons/c_bunnka.svg', color: '#C75746', bcolor: '#935B3B' },			//文化財保護費
-  '2013100803': { icon: 'icons/books.svg', color: '#C75746', bcolor: '#935B3B' },				//社会教育施設費
+  '2013100803': { icon: 'icons/books.svg', color: '#C75746', bcolor: '#935B3B' },				//社会教育施設費	⇒オリジナルアイコン（建物：hyogo_building.svg）
   	  
   '2013100900': { icon: 'icons/sports.svg', color: '#C75746', bcolor: '#FA8072' }, 			//2階層 保健体育費
   '2013100901': { icon: 'icons/publicaffairs.svg', color: '#C75746', bcolor: '#935B3B' },			//保健体育総務費
@@ -339,8 +339,8 @@ OpenSpending.Styles.Cofog = {
   '2013110200': { icon: 'icons/construction.svg', color: '#C75746', bcolor: '#D33673' },		//2階層 土木施設災害復旧費
   '2013110201': { icon: 'icons/construction.svg', color: '#C75746', bcolor: '#D33673' },		//公共土木施設等災害復旧費
 
-  '2013110300': { icon: 'icons/manufactoring-construction.svg', color: '#C75746', bcolor: '#D33673' },	//2階層 県有施設等災害復旧費
-  '2013110301': { icon: 'icons/manufactoring-construction.svg', color: '#C75746', bcolor: '#D33673' },	//県有施設等災害復旧費
+  '2013110300': { icon: 'icons/manufactoring-construction.svg', color: '#C75746', bcolor: '#D33673' },	//2階層 県有施設等災害復旧費	⇒オリジナルアイコン（建物：hyogo_building.svg）
+  '2013110301': { icon: 'icons/manufactoring-construction.svg', color: '#C75746', bcolor: '#D33673' },	//県有施設等災害復旧費	⇒オリジナルアイコン（建物：hyogo_building.svg）
 
 
   '2013120000': { icon: 'icons/public-debt.svg', color: '#C75746', bcolor: '#D33673' },		//1階層	公債費-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
@@ -354,4 +354,3 @@ OpenSpending.Styles.Cofog = {
   '2013130100': { icon: 'icons/money.svg', color: '#C75746', bcolor: '#D33673' },		//2階層	予備費
   '2013130101': { icon: 'icons/money.svg', color: '#C75746', bcolor: '#D33673' }		//予備費
 };
-
