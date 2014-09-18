@@ -2,10 +2,11 @@
 <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="レイヤー_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
-	 y="0px" width="360px" height="560px" viewBox="0 0 360 560" enable-background="new 0 0 360 560" xml:space="preserve">
+	 y="0px" width="112px" height="110px" viewBox="0 0 112 110" enable-background="new 0 0 112 110" xml:space="preserve">
 <g>
-	<circle fill="#231815" cx="180" cy="280" r="99.672"/>
-	<path fill="#FFFFFF" d="M106.438,314.895c1.333-1.159,29.141-94.624,50.769-43.257c0.386,0.387,22.4-58.705,36.689-29.739
-		c14.291,28.966,30.126,51.753,30.126,51.753s6.952-22.015,18.152-2.704c11.2,19.312,12.745,23.946,12.745,23.946H106.438z"/>
+	<circle fill="#231815" cx="50" cy="50" r="50"/>
+	<path fill="#FFFFFF" d="M80.85,52.439c-5.619-9.688-9.105,1.355-9.105,1.355s-7.943-11.431-15.112-25.962
+		c-7.168-14.53-18.212,15.112-18.405,14.919c-10.851-25.768-24.801,21.12-25.469,21.7h74.484
+		C87.242,64.452,86.468,62.127,80.85,52.439z"/>
 </g>
 </svg>
