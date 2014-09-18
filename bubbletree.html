@@ -53,10 +53,10 @@ title: 使途別予算額
         //Use static file instead of api
         //localApiCache: 'aggregate.json',
         dataset: OpenSpending.identifier,
-        rootNodeLabel: 'Category',
-        drilldowns: ['Category', 'Subcategory', 'Subcategory02'],
+        rootNodeLabel: 'category',
+        drilldowns: ['category', 'subcategory', 'subcategory02'],
         cuts: ['year:' + OpenSpending.year],
-        breakdown: 'Subcategory02',
+        breakdown: 'subcategory02',
         callback: dataLoaded
       });
     });
