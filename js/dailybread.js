@@ -152,7 +152,8 @@ OpenSpending.DailyBread = function (elem) {
 
   this.drawTier = function (tierId) {
     var tdAry = self.taxAndDataForTier(tierId)
-    if (tdAry[1][0][1] == 0){ return }
+//    if (tdAry[1][0][1] == 0){ return }
+    if (tdAry ==null || tdAry[1][0][1] == 0){ return }	//ODL ueda [ 2014/09/18 17:39 ] ***********************************************************
     //console.log(tdAry);
     if (!tdAry) { return } // No child tier for selected area.
   //  alert("no tdAry");
