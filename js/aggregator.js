@@ -310,4 +310,3 @@ var OpenSpending = OpenSpending || {};
   };
 
 }(jQuery));
-
