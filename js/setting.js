@@ -324,7 +324,7 @@ OpenSpending.Styles.Cofog = {
   '2013100800': { icon: 'icons/c_bunnka.svg', color: '#C75746', bcolor: '#FA8072' }, 		//2階層 社会教育費
   '2013100801': { icon: 'icons/publicaffairs.svg', color: '#C75746', bcolor: '#935B3B' },			//社会教育総務費
   '2013100802': { icon: 'icons/c_bunnka.svg', color: '#C75746', bcolor: '#935B3B' },			//文化財保護費
-  '2013100803': { icon: 'icons/hyogo_building.svg.svg', color: '#C75746', bcolor: '#935B3B' },	//社会教育施設費	⇒オリジナルアイコン（建物：hyogo_building.svg）
+  '2013100803': { icon: 'icons/hyogo_building.svg', color: '#C75746', bcolor: '#935B3B' },	//社会教育施設費	⇒オリジナルアイコン（建物：hyogo_building.svg）
   	  
   '2013100900': { icon: 'icons/sports.svg', color: '#C75746', bcolor: '#FA8072' }, 			//2階層 保健体育費
   '2013100901': { icon: 'icons/publicaffairs.svg', color: '#C75746', bcolor: '#935B3B' },			//保健体育総務費
