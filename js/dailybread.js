@@ -119,6 +119,7 @@ OpenSpending.DailyBread = function (elem) {
 
   this.setSalary = function (salary) {
     self.salaryVal = salary
+    	/* 神戸市追加分 ここから
     baseKoujo = Taxes.baseKoujo; // 住民税基礎控除
     if ( salary <= 1625000){
         baseKoujo = baseKoujo + 650000;
@@ -133,6 +134,7 @@ OpenSpending.DailyBread = function (elem) {
     }else {
         baseKoujo = baseKoujo + salary * 0.05 + 1700000;
     }
+    神戸市追加分 ここまで */
     self.taxVal = (salary - (baseKoujo + (dependentType == 'family' ? huyoKoujo : 0))) * taxRate;
   }
 
